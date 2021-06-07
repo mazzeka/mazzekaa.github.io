@@ -1,0 +1,118 @@
+html
+{
+    background-image: url(aboutus1.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+
+}
+
+h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  padding-top: 25px;
+}
+h2
+{
+  color: black;
+  font-size: 35px;
+  padding-top: 50px;
+  padding-left: 30px;
+  font-family : 'Times New Roman', Times, serif;
+  color: dodgerblue;
+
+} 
+
+.fac , .loc , .din , .rooms
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: -15px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size:  20px;
+  
+}
+
+.btn {
+	text-align:center;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 16px 28px;
+	font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+	cursor: pointer;
+	 }
+button :link {
+	text-decoration : none;
+}
+.gmail {
+	border-color: dodgerblue;
+	color: dodgerblue
+	   }
+.gmail:hover {
+	background: dodgerblue;
+	color: white;
+			 }
+.facebook:hover {
+		background: dodgerblue;
+	color: white;
+			 }
+.facebook{
+	border-color: dodgerblue;
+	color: dodgerblue
+	   }
+       
+
+/* .btn gmail , .btn facebook
+{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 21px;
+  font-size: 20px;
+  cursor: pointer;
+  border-color: dodgerblue;
+  
+}
+
+.btn gmail:hover , .btn facebook:hover
+{
+  background: dodgerblue;
+	color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn 
+{
+	text-align:center;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 16px 28px;
+	font-size: 16px;
+	cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+button :link
+
+{
+	text-decoration : none;
+  font-family: 'Times New Roman', Times, serif;
+
+  
+} */
+
+
+
+
+

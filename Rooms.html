@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Rooms </title>
+		<link rel ="stylesheet" href ="Rooms.css"/>
+		<script>
+			function myfunction (){
+			document.getElementById("test").innerHTML ="<center>Please enter all needed information</center>" ;}
+		</script>
+		<script>
+            if(introduce==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(Date==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(room==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(type==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+        </script>
+	</head>
+	<body>
+		<pre><h2> Rooms & Suites </h2></pre>
+        <!-- <pre><h2> Check in </h2></pre> -->
+		<form>
+
+			<div class ="introduce">
+				<label for="name"> Your Name : </label>
+				<input id ="name" name = "name"  type="text" required /> 
+				<br/>
+				<br/>
+				<label for="id number"> Your ID Number : </label>
+				<input id ="id number" name = "id number"  required/><br/><br/>
+				<label for="email"> Your Email : </label>
+				<input id ="email" name = "email"  type="text" placeholder ="example@gmail.com" required/><br/><br/>
+
+			</div>
+
+
+			<div class="date">
+				<label class="check in" for="check-in"> Check-in : </label>
+				<input id ="check-in" name = "check-in"  type="date" required/><br/><br/>
+				<label class="check out" for="check-out"> Check-out : </label>
+				<input id ="check-out" name = "check-out"  type="date" required/><br/><br/>
+			</div>
+
+
+			<div class ="room">
+				<label for="how many room you want?"> How many rooms you want? : </label>
+				<input id ="how many room you want?" name = "how many room you want" type="number" required/><br/><br/>
+				
+			</div>
+
+
+			<label class="type" for="room">Choose room type :</label>
+			<select name="room" id="room" required>
+				<option value="">
+					Please choose an option
+				</option>
+				<option value="single">
+					Single 90$ / Day
+				</option>
+				<option value="double">
+					Double 160$ / Day
+				</option>
+				<option value="triple">
+					Triple 180$ / Day
+				</option>
+				<option value="suite">
+					Suite 220$ / Day
+				</option>	
+
+		
+			</select><br><br>
+
+
+				<label for="offer">Choose an offer :</label>
+				<select name="offer" id="offer">
+				<option value="">
+					Please choose an offer 
+				</option>
+				<option value="offer1">
+					4 Days + 1 Day off
+				</option>
+				<option value="offer2">
+					5 Days + 2 Days off
+				</option>
+				<option value="offer3">
+					8 Days + 2 Days off
+				</option>
+
+			</select> <br><br>
+
+
+			<div class ="coupon">
+				<label for="your coupon"> Your coupon </label>
+				<input id ="your coupon" name = "your coupon"  type="text" placeholder ="optional"/><br/><br/>
+				<input id = "no coupon" type="radio" name="no_coupon">
+				<label for= "no coupon" class="no_coupon">I dont have a coupon</label><br><br>
+				
+				
+				</div>
+
+
+				
+			
+			<br>
+			
+
+			<h1 class="thanks" id = "test">  </h1>
+			<button type="submit" value="submit"  onClick="myfunction()"
+				class="SUBMIT" id ="SUBMIT" name = "SUBMIT" >
+                <td colspan="2">  </td>
+				<a title ="SUBMIT" > submit
+			</button>
+			<input class="reset" type="reset">
+            
+			
+		</form>
+	</body>
+</html>

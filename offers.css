@@ -1,0 +1,48 @@
+html
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("offers.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1  
+{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 45px;
+    color: black;
+
+}
+
+
+.rooms1 , .rooms2 , .rooms3 ,
+.villas1 , .villas2
+{
+    padding-left: 30px;
+    font-size: 30px;
+
+}
+.rooms1_head , .rooms1_percent,
+.rooms2_head , .rooms2_percent,
+.rooms3_head , .rooms3_percent,
+.villas1_head, .villas1_percent,
+.villas2_head, .villas2_percent
+{
+    color: darkred;
+    font-size: 45px;
+    font-family: cursive;
+
+}
+ 

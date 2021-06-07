@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Villas </title>
+		<link rel ="stylesheet" href ="../it/Villas.css"/>
+		<script>
+			function myfunction (){
+			document.getElementById("test").innerHTML ="<center>Please enter all needed information</center>" ;}
+		</script>
+        		<script>
+                    if(introduce==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(Date==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(room==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+			if(type==""){  
+                document.getElementById("namelocation").innerHTML=  
+                status=false;
+            }
+                </script>
+	</head>
+	<body>
+		<pre><h2> Time Share Villas </h2></pre>
+		<form>
+			<div class="content">
+				<div class ="introduce">
+					<label for="name"> Your Name : </label>
+					<input id ="name" name = "name"  type="text" required /> 
+					<br/>
+					<br/>
+					<label for="id number"> Your ID Number : </label>
+					<input id ="id number" name = "id number"  required/><br/><br/>
+					<label for="email"> Your Email : </label>
+					<input id ="email" name = "email"  type="text" placeholder ="example@gmail.com" required/><br/><br/>
+				</div>
+
+
+				<div class="date">
+					
+					<label for="check-in"> Check-in "500$ / day" : </label>
+					<input id ="check-in " name = "check-in"  type="date" required/><br/><br/>
+					<label for="check-out"> Check-out : </label>
+					<input id ="check-out" name = "check-out"  type="date" required/><br/><br/>
+				</div>
+
+
+					<label for="offer">Choose an offer :</label>
+					<select name="offer" id="offer">
+					<option value="">
+						Please choose an offer 
+					</option>
+					<option value="offer1">
+						7 Days + 2 Days off
+					</option>
+					<option value="offer2">
+						2 Weeks + 5 Days off
+					</option>
+
+
+				</select> <br><br>
+
+
+				<div class ="coupon">
+					<label for="your coupon"> Your coupon </label>
+					<input id ="your coupon" name = "your coupon"  type="text" placeholder ="optional"/><br/><br/>
+					<input id = "no coupon" type="radio" name="no_coupon">
+					<label for= "no coupon" class="no_coupon">I dont have a coupon</label><br><br>
+					
+					
+					</div>
+
+
+					
+			</div>
+			<br>
+			
+
+			<h1 class="thanks" id = "test">  </h1>
+			<button type="submit" value="submit"  onClick="myfunction()"
+				class="SUBMIT" id ="SUBMIT" name = "SUBMIT" >
+                <td colspan="2">  </td>
+				<a title ="SUBMIT" > submit
+			</button>
+			<input class="reset" type="reset">
+		    
+			
+
+			
+		</form>
+	</body>
+</html>
+
+<!-- <html>
+	<head>
+		<title>Villas</title>
+		<link rel ="stylesheet" href ="../Project/Villas.css"/>
+	</head>
+	<body>
+		<pre><h2>Time Share Villas </h2></pre>
+		<form>
+			<div class ="introduce">
+				<label for="name">
+					Your name : 
+			    </label>
+				<input id ="name" name = "name" required type="text"/><br/><br/>
+				<label for="card number">
+					Your card number : 
+			    </label>
+				<input id ="card number" name = "card number" required type="text"/><br/><br/>
+			</div>
+			<div class="date">
+				<label for="check-in">
+					Check-in : 
+				</label>
+				<input id ="check-in" name = "check-in" required type="date"/><br/><br/>
+				<label for="check-out"> 
+					Check-out : 
+				</label>
+				<input id ="check-out" name = "check-out" required type="date"/><br/><br/>
+			</div>
+			<div class ="coupon">
+				<label for="your coupon"> 
+					Your coupon : 
+				</label>
+				<input id ="your coupon" name = "your coupon"  type="text" placeholder ="optional"/><br/><br/>
+				<legend> <p style="font-size:30px;">
+					I don't have coupon
+				</p> </legend>
+				<input type = "radio" id = "" name = "i don't have coupon"></input>
+				<label for = "" ></label><br><br>
+			</div>
+			<button class="btn SUBMIT" id ="SUBMIT" name = "SUBMIT" >
+				<a href="......"title ="SUBMIT" target ="_blank"> SUBMIT
+			</button>
+			<button class="btn RESET" id ="RESET" name = "RESET" >
+				<a href="villa.html"title ="RESET"> RESET
+			</button>
+		</form>
+	</body>
+<html> -->
